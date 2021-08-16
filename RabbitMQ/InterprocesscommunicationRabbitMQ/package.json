@@ -1,0 +1,29 @@
+{
+  "name": "amqp",
+  "version": "1.0.0",
+  "description": "A rest api boiler plate with db, request and response handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodejs",
+    "expressjs",
+    "rabbitmq"
+  ],
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.14.5"
+  }
+}
